@@ -1,0 +1,247 @@
+<!-- - Create a layout according to the design shown below.
+
+![Backgrounds and gradient Assignment level 1](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/adding-media/ex-1.png)
+
+- Video link: https://www.youtube.com/watch?v=AqcjdkPMPJA#action=share
+
+- Using CSS resets is necessary.
+
+- Use semantic tags and keep the nesting and indentation proper. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hydro - Assignment Level I</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/e03b185f1b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+        <header class="header">
+            <div class="container">
+                <nav class="flex">
+                   <h1>
+                       <a href="#">hydro</a>
+                   </h1>
+                    <ul>
+                        <a href="">home</a>
+                        <a href="">about</a>
+                        <a href="">blog</a>
+                        <a href="">our work</a>
+                        <a href="">contacts</a>
+                    </ul>
+                   <div class="icons">
+                        <a href=""><i class="fa-brands fa-facebook-square"></i></a>
+                         <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a class="btn-header" href="">sign in/join</a>
+                </div>
+            </nav>
+        </div>
+        </header>
+        <main>
+            <!-- hero-section -->
+            <section class="hero flex">
+                <div class="container">
+                    <article class="flex align-strech">
+                        <div>
+                            <h2>We make beautiful</h2>
+                            <h2> websites for all people.</h2>
+                            <div class="flex justify-start">
+                                <a href="">start a project</a>
+                                <address>
+                                    <p>call us(+86)010-020-030-</p>
+                                    <small>for any enquiry</small>
+                                </address>
+                            </div>
+                        </div>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/AqcjdkPMPJA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </article>
+                </div>
+            </section>
+            <!-- main-section -->
+            <section class="about"> 
+                <div class="container flex">
+                    <article class="about-1">
+                        <h3>let us Introduce</h3>
+                        <div class="flex justify-start">
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                    </article>
+                    <article class="about-2">
+                        <div class="flex">
+                            <h4>web design</h4>
+                            <span>85%</span>
+                        </div>
+                        <div class="bar bar-1"></div>
+                        <div class="flex">
+                            <h4>photography</h4>
+                            <span>90%</span>
+                        </div>
+                        <div class="bar bar-2"></div>
+                        <div class="flex">
+                            <h4>content marketing</h4>
+                            <span>75%</span>
+                        </div>
+                        <div class="bar bar-3"></div>
+                        <div class="flex">
+                            <h4>cms admin</h4>
+                            <span>70%</span>
+                        </div>
+                        <div class="bar bar-4"></div>
+
+                    </article>
+                    <article class="about-3">
+                        <img src="./assets/about-image.jpg" alt="" width="300px" height="300px">
+                    </article>
+                </div>
+            </section>
+            <section class="blog">
+                <div class="container">
+                    <h3>our blog</h3>
+                    <div class="flex justify-center ">
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                    </div>
+                    <div class="flex flex-wrap">
+                        <article class="blog-1 flex">
+                            <img src="./assets/blog-image1.jpg" alt="workspace" width="300px" height="378px">
+                            <div class="blog-description">
+                                <a href=""><i class="fa-solid fa-clock"></i></a>
+                                <time class="time">december 22, 2017</time>
+                                <h5>how to find out beautiful workspace.</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                <button class="btn-blog">
+                                    read article
+                                </button>
+                            </div>
+                        </article>
+                        <article class="blog-1 flex">
+                            <img src="./assets/blog-image2.jpg" alt="women sportswear" width="300px" height="378px">
+                            <div class="blog-description">
+                                <a href=""><i class="fa-solid fa-clock"></i></a>
+                                <time class="time">december 18, 2017</time>
+                                <h5>women sportwear.</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                <button class="btn-blog">
+                                    read more
+                                </button>
+                            </div>
+                        </article>
+                        <article class="blog-1 flex">
+                            <img src="./assets/blog-image3.jpg" alt="creative fashion" width="300px" height="378px">
+                            <div class="blog-description">
+                                <a href=""><i class="fa-solid fa-clock"></i></a>
+                                <time class="time">december 14, 2017</time>
+                                <h5>new creative fashion.</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                <button class="btn-blog">
+                                    read article
+                                </button>
+                            </div>
+                        </article>
+                        <article class="blog-1 flex">
+                            <img src="./assets/blog-image4.jpg" alt="design trend" width="300px" height="378px">
+                            <div class="blog-description">
+                                <a href=""><i class="fa-solid fa-clock"></i></a>
+                                <time class="time">december 10, 2017</time>
+                                <h5>minimalist design trend in 2018.</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                <button class="btn-blog">
+                                    view detail
+                                </button>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </section>
+            <!-- work section -->
+            <section class="work">
+                <div class="container">
+                    <h3>our work</h3>
+                    <div class="flex justify-center ">
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                    </div>
+                    <article class="flex">
+                        <img src="./assets/work-image1.jpg" alt="" width="100%">
+                        <img src="./assets/work-image2.jpg" alt="" width="100%">
+                        <img src="./assets/work-image3.jpg" alt="" width="100%">
+                        <img src="./assets/work-image4.jpg" alt="" width="100%">
+                    </article>
+                </div>
+            </section>
+            <!-- contact-section -->
+            <section class="contact">
+                <div class="container">
+                    <h3>contact us</h3>
+                    <div class="flex justify-center ">
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                    </div>
+                    <article class="flex ">
+                        <div class="form-1">
+                            <div class="flex flex-wrap">
+                                <p class="form">full name</p>
+                                <p class="form">your email</p>
+                                <p class="form">your phone</p>
+                                <p class="form">budget level</p>
+                                <p class="requirements">your requirements</p>
+                                <a href="">send message</a>
+                            </div>
+                        </div>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3375.886292450995!2d76.35322021491012!3d32.20729448114785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391b530e24726e0d%3A0x71ff0cae0784712d!2sAltCampus%20Services%20Pvt.%20Ltd!5e0!3m2!1sen!2sin!4v1650965812643!5m2!1sen!2sin" width="300" height="300" style="border:0; border-radius: 50%;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </article>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <div class="flex align-baseline">
+                    <article>
+                        <h6>hydro company</h6>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br> sed do eiusmod tempor incididunt ut labore et dolore <br> magna aliqua.</p>
+                    </article>
+                    <article>
+                        <h6>company</h6>
+                        <p>About us</p>
+                        <p>Join our team</p>
+                        <p>Read Blog</p>
+                        <p>Press</p>
+                    </article>
+                    <article>
+                        <h6>services</h6>
+                        <p>Pricing</p>
+                        <p>Documentation</p>
+                        <p>Suppourt</p>
+                    </article>
+                    <article>
+                        <h6>find us</h6>
+                        <p>123 Grand Rama IX</p>
+                        <p>Krung Thep Maha Nakhan 10400</p>
+                    </article>
+                </div>
+                <div class="hr-line"></div>
+                <div class="footer-note flex ">
+                    <small>Copyright&copy;2017 your company</small>
+                    <nav class="nav-footer">
+                    <span>callus </span>
+                    <span> (+86) 010-020-0340</span>
+                        <a href=""><i class="fa-brands fa-facebook-square"></i></a>
+                         <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    </nav>
+                </div>
+            </div>
+        </footer>
+</body>
+</html>

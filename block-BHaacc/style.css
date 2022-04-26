@@ -1,0 +1,341 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* custome styles */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* flex */
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.justify-center {
+    justify-content: center;
+}
+.justify-start {
+    justify-content: flex-start;
+}
+.align-strech {
+    align-items: flex-start;
+}
+.flex-wrap {
+    flex-wrap: wrap;
+}
+.align-baseline {
+    align-items: baseline;
+}
+.align-self {
+    align-self: flex-start;
+}
+
+/* container */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+/* header */
+.header {
+    padding: 30px 0px;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+}
+h1 a {
+    font-size: 20px;
+    color: white;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-weight: 600;
+}
+.header ul a {
+    text-decoration: none;
+    text-transform: capitalize;
+    margin-right: 25px;
+    color: white;
+}
+.icons a {
+    margin-left: 20px;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: white;
+}
+.btn-header {
+    padding: 15px 25px;
+    border-radius: 25px;
+    background-color: #cf3732;
+}
+/* hero-section */
+.hero {
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(to right, rgba(64,127,202,0.7), rgba(133,233,157,0.7)), url("./assets/home-bg.jpg") 50% 50% no-repeat;
+    background-size: cover;
+}
+h2 {
+    font-size: 42px;
+    margin: 25px 0px;
+    color: white;
+}
+.hero a {
+    text-decoration: none;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 25px;
+    border: 1px solid white;
+    text-transform: capitalize;
+    font-size: small;
+    margin-top: 20px;
+}
+.hero address {
+    font-size: small;
+    margin-left: 25px;
+    margin-top: 20px;
+    color: white;
+}
+.hero small {
+    font-size: smaller;
+}
+/* about */
+.about {
+    padding-top: 40px;
+}
+.about-1 {
+    width: 40%;
+    line-height: 25px;
+}
+.about-1 h3 {
+    font-size: 24px;
+    text-transform: capitalize;
+}
+.about-1 p {
+    color: #9d9d9d;
+}
+.dot {
+    width: 5px;
+    height: 5px;
+    background-color: #9d9d9d;
+    margin-right: 3px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.about-1 p {
+    font-size: small;
+}
+
+.about-2{
+    width: 22%;
+    line-height: 40px;
+}
+.about-2 h4 {
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.bar {
+    height: 5px;
+    background-color: black;
+    margin-bottom: 10px;
+}
+.bar-1 {
+    width: 85%;
+}
+.bar-2 {
+    width: 90%;
+}
+.bar-3 {
+    width: 75%;
+}
+.bar-4 {
+    width: 70%;
+}
+.about-3 {
+    width: 22%;
+}
+/* heading and dot */
+h3 {
+    font-size: 24px;
+    text-transform: capitalize;
+    text-align: center;
+}
+.dot {
+    width: 5px;
+    height: 5px;
+    background-color: #9d9d9d;
+    margin-right: 3px;
+    margin-top: 10px;
+    text-align: center;
+}
+/* blog */
+.blog {
+    background-color: #efefef;
+    padding: 40px 0px;
+}
+.blog-1 {
+    width: 47%;
+    background-color: white;
+    margin: 30px 0px;
+}
+.blog-description {
+    padding: 50px 20px;
+    line-height: 30px;
+}
+.blog-description i {
+     color: white;
+     background-color: #cf3732;
+     border: 2px solid #cf3732;
+     border-radius: 50%;
+     font-size: xx-small;
+}
+.time {
+    color: #cf3732;
+    text-transform: capitalize;
+}
+.blog-description h5 {
+    text-transform: capitalize;
+    font-size: 22px;
+}
+.blog-description p {
+    color: #9d9d9d;
+}
+.btn-blog  {
+    text-decoration: none;
+    color: black;
+    padding: 15px 25px;
+    border-radius: 25px;
+    border: 0 none #9d9d9d;
+    text-transform: capitalize;
+    font-size: small;
+    margin-top: 20px;
+}
+/* work */
+.work {
+    padding: 40px 0px;
+}
+
+.work img {
+    width: 22%;
+    margin-top: 30px;
+}
+/* contact us */
+.contact {
+    background-image: linear-gradient(to right,rgba(64,127,202,1), rgba(133,233,157,1));
+    padding: 40px 0px;
+}
+.contact h3 {
+    color: white;
+}
+.form-1 {
+    width: 65%;
+}
+.form {
+    width: 49%;
+    height: 50px;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 20px;
+    color: #9d9d9d;
+    text-transform: capitalize;
+    padding: 15px 10px;
+}
+.requirements {
+    width: 100%;
+    height: 130px;
+    background-color: white;
+    border-radius: 10px;
+    color: #9d9d9d;
+    text-transform: capitalize;
+    padding: 10px;
+    margin:20px 0px;
+}
+.form-1 a {
+    padding: 15px 50px;
+    border-radius: 25px;
+    background-color: #cf3732;
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+}
+/* footer */
+.footer {
+    background-image: linear-gradient(to right, #414141, #090909);
+    color: white;
+}
+.footer article {
+    margin: 30px 0px;
+    line-height: 25px;
+
+}
+h6 {
+    font-size: 24px;
+    text-transform: capitalize;
+    padding-bottom: 15px;
+}
+.footer p {
+    font-size: small;
+}
+.hr-line {
+    height: 1px;
+    background-image: linear-gradient(to right,white, #090909);
+}
+.footer-note {
+    padding: 30px 0px;
+    font-size: small;
+}
+.nav-footer {
+    margin-right: 180px;
+}
+.nav-footer a {
+    margin-left: 30px;
+    color: white;
+}
+.nav-footer span {
+    margin-right: 20px;
+}
